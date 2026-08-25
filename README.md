@@ -11,6 +11,7 @@ your local network.
 ### macOS
 
 ```bash
+brew tap castsound/tap
 brew install --cask castsound
 ```
 

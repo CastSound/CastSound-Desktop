@@ -42,12 +42,6 @@ The macOS release is signed and notarized with a Developer ID certificate.
 
 ### Linux
 
-**Flatpak (recommended)**
-
-```bash
-flatpak install flathub com.devculi.castsound
-```
-
 **Arch Linux (AUR)**
 
 ```bash

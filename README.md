@@ -19,7 +19,7 @@ time with low latency over your local network or a USB cable.
   in Zoom, Google Meet, Teams, and OBS (CMIO system extension on macOS,
   v4l2loopback on Linux).
 - **Low latency** — built for calls, films, and games; USB tethering gives the
-  steadiest link.
+  steadiest link (<10ms over USB).
 - **Auto discovery + QR pairing** — find your computer automatically or scan
   the QR code it shows.
 - **Signed auto-updater** — every release is verified with Ed25519 before it is
@@ -132,10 +132,20 @@ setup help, start with the
 [setup guides](https://castsound.app/guides/) and the
 [FAQ](https://castsound.app/faq/) on the website.
 
+## Documentation & Setup Guides
+- [Cast PC audio to your phone](https://castsound.app/guides/cast-pc-audio-to-phone) - Stream all computer sound directly to your phone speakers or headphones.
+- [Ultra-low latency audio over USB](https://castsound.app/guides/low-latency-pc-audio-usb) - Sub-10ms response time for gaming and movies using USB cable.
+- [Mac mini speaker & microphone setup](https://castsound.app/guides/mac-mini-speaker-microphone) - Use your smartphone as full external audio peripherals for Mac mini & Mac Studio.
+- [USB tethering guide](https://castsound.app/guides/usb-tethering) - Direct tethering instructions for Android and iPhone.
+- [CastSound vs AudioRelay](https://castsound.app/compare/audiorelay) - Deep dive comparison and feature matrix.
+- [CastSound vs WO Mic](https://castsound.app/compare/wo-mic) - Comparison for microphone and webcam use cases.
+
 ## Learn more
 
 - Website: https://castsound.app
 - Download: https://castsound.app/download/
+- Setup Guides: https://castsound.app/guides
+- Frequently Asked Questions: https://castsound.app/faq
 - Support: https://castsound.app/support/
 - Terms of Service: https://castsound.app/terms
 - Privacy Policy: https://castsound.app/privacy

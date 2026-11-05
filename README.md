@@ -4,26 +4,21 @@
 [![Latest release](https://img.shields.io/github/v/release/CastSound/CastSound-Desktop)](https://github.com/CastSound/CastSound-Desktop/releases)
 [![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)](https://castsound.app/download/)
 
-Use your phone as a wireless **speaker**, **microphone**, and **webcam** for your computer.
+> Turn your smartphone into complete PC peripherals (speaker, microphone, webcam) simultaneously with ultra-low latency over USB cable and Wi-Fi.
 
 CastSound Desktop is the companion app for macOS and Linux. Pair it with the
 CastSound mobile app on your [Android](https://play.google.com/store/apps/details?id=com.devculi.castsound)
-or [iPhone](https://apps.apple.com/app/id6798239521) to stream audio in real
-time with low latency over your local network or a USB cable.
+or [iPhone](https://apps.apple.com/app/id6798239521) to turn your phone into complete hardware peripherals.
 
 ## Features
 
-- **Speaker + microphone in one connection** — listen to your computer and
-  speak through your phone at the same time.
-- **Phone as a webcam** — your computer sees a CastSound camera you can select
-  in Zoom, Google Meet, Teams, and OBS (CMIO system extension on macOS,
-  v4l2loopback on Linux).
-- **Low latency** — built for calls, films, and games; USB tethering gives the
-  steadiest link (<10ms over USB).
-- **Auto discovery + QR pairing** — find your computer automatically or scan
-  the QR code it shows.
-- **Signed auto-updater** — every release is verified with Ed25519 before it is
-  installed.
+- **Simultaneous 3-in-1 Streaming** — streams PC audio to phone (speaker), phone audio to PC (microphone), and phone camera to PC (virtual webcam) simultaneously over a single bidirectional connection.
+- **Ultra-Low Latency (<10ms USB, ~15ms Wi-Fi)** — real-world benchmarked with sub-millisecond network transport and NTP clock drift compensation.
+- **Native OS Integration** — macOS CoreAudio plugin, Linux PipeWire and PulseAudio native sinks/sources, macOS CMIO system extension, and Linux v4l2loopback.
+- **Zero-Config Plug-and-Play USB** — Android Open Accessory (AOA) and USBMuxd with automatic fallback (`RNDIS > Android AOA > Wi-Fi LAN`).
+- **Acoustic Echo Cancellation (AEC)** — WebRTC AEC3 / SpeexDSP and Apple VoiceProcessingIO allow using speakerphone and microphone together without headphones or feedback loops.
+- **Auto Discovery + QR Pairing** — find your computer automatically via mDNS/Bonjour or scan the pairing QR code.
+- **Signed Auto-Updater** — every release is verified with Ed25519 before installation.
 
 ## Install
 
